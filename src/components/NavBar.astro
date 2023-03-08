@@ -1,0 +1,51 @@
+---
+let links = [
+  {
+    name: "Home",
+    href: "/",
+  },
+  {
+    name: "Projects",
+    href: "#projects",
+  },
+  {
+    name: "Contact",
+    href: "#contact",
+  },
+];
+---
+
+<script>
+  export default {
+    isOpen: false,
+    toggle() {
+      this.isOpen = !this.isOpen;
+    },
+    get navbarMenuClasses() {
+      return {
+        "navbar-menu": true,
+        "is-active": this.isOpen,
+      };
+    },
+  };
+</script>
+<ul class="flex justify-between py-2">
+  <li>logo</li>
+
+  <div class="links flex space-x-9">
+    {
+      links.map((link) => {
+        return (
+          <li class="text-gray-800 text-sm font-normal transition ease-in delay-700 ">
+            <a
+              class="hover:text-black hover:font-bold hover:scale-110 "
+              href={link.href}
+            >
+              {link.name}
+            </a>
+          </li>
+        );
+      })
+    }
+  </div>
+</ul>
