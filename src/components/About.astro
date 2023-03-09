@@ -1,34 +1,19 @@
 ---
-import Button from "./Button.astro";
-import { Icon } from "astro-icon";
+import Socials from "./Socials.astro";
 
-let shortbio = `I am a software engineer with a passion for building great products.`;
+let shortbio = `Holla, I'm Evergreen , a frontend developer with 4 years of industry experience.`;
 
-let longerdesc = "lorem ipsum ";
-let buttonText = "Contact Me";
-
+let longerdesc =
+  "I am a Frontend Developer based in Lagos, Nigeria focused on branding, building interactive experiences & creating emotions through design and technology. ";
 ---
 
-
-  <p class="text-4xl font-bold text-white">
+<div class="intro-texts">
+  <p class="text-4xl font-semibold text-white">
     {shortbio}
   </p>
   <p class="text-base text-white font-normal mt-10">
     {longerdesc}
-    
   </p>
+</div>
 
-  <div class="bottom__area bg-red-900">
-    <Button buttonText={buttonText} />
-    <Icon pack="mdi" name="account" class="text-xl" />
-  </div>
-
-
-<style lang="css">
-  [astro-icon] {
-    color: blue;
-    /* OR */
-    fill: blue;
-    width: 20px;
-  }
-</style>
+<Socials />
