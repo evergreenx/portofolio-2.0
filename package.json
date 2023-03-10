@@ -12,7 +12,10 @@
   "dependencies": {
     "@astrojs/tailwind": "^3.1.0",
     "astro": "^2.1.0",
+    "scrollreveal": "^4.0.9",
     "tailwindcss": "^3.2.7"
+  },
+  "devDependencies": {
+    "@types/scrollreveal": "^0.0.8"
   }
-
 }
