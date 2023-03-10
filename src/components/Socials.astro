@@ -1,16 +1,16 @@
 ---
 import Button from "./Button.astro";
 
-let buttonText = "Contact Me";
+let buttonText = "Contact me";
 ---
 
-<div class="bottom__area flex space-x-6 items-center">
-  <div class="">
+<div class="bottom__area flex lg:flex-row flex-col lg:space-x-6 lg:items-center lg:mx-0 mx-auto">
+  <div class="lg:mb-0 mb-5">
     <Button buttonText={buttonText} />
   </div>
   <!-- <Icon pack="mdi" name="account" class="text-xl" /> -->
 
-  <div class="socials flex space-x-10">
+  <div class="socials flex space-x-10 mx-auto justify-center items-center">
     <div class="gh">
       <a href="https://www.github.com/evergreenx">
         <i class="fa text-white fa-github"></i>
