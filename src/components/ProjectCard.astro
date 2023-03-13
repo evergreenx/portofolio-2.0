@@ -13,11 +13,11 @@ import { projectsData } from "./data";
             <h2 class="text-lg font-semibold text-white ">{project.name}</h2>
 
             <div class="links flex text-white items-center space-x-3 text-lg">
-              <a href={project.ghlink} target="_blank" class="hover:tra">
+              <a href={project.ghlink} target="_blank" class="transition-all hover:-translate-y-2">
                 <i class="fa fa-github" />
               </a>
 
-              <a href={project.livelink} target="_blank">
+              <a href={project.livelink} target="_blank" class="transition-all hover:-translate-y-2">
                 <i class="fa fa-link"> </i>
               </a>
             </div>
