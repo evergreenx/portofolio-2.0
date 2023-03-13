@@ -9,10 +9,13 @@ export const projectsData = [
     livelink: "https://wordiumdocsx.netlify.app/",
   },
   {
-    name: "Project 2",
-    desc: "in testing ",
+    name: "Look",
+    desc: "A text translation application that helps users translate text from one language to another using Microsoft azure cognitive services translator services. ",
     color: "bg-amber-400",
     link: "/",
+    image:'https://res.cloudinary.com/evergreenx/image/upload/v1647727542/amazon2-preview_rmrj0k.png',
+    ghlink: "https://github.com/evergreenx/Look",
+    livelink: "",
   },
 
   {
