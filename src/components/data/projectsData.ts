@@ -1,14 +1,17 @@
 export const projectsData = [
   {
-    name: "Project name",
-    desc: "little desc",
-    color: "bg-gradient-to-r from-green-400 to-blue-500",
-    link: "/",
+    name: " Wordium doc",
+    desc: "A word processor web application that allows you to create, edit, and share documents.",
+    image:
+      "https://res.cloudinary.com/evergreenx/image/upload/v1644680734/project_1_dgnqd3.png",
+    color: "bg-blue-300",
+    ghlink: "https://github.com/evergreenx/Wordium-Docs",
+    livelink: "https://wordiumdocsx.netlify.app/",
   },
   {
     name: "Project 2",
     desc: "in testing ",
-    color: "from-pink-500 to-yellow-500 bg-gradient-to-l",
+    color: "bg-amber-400",
     link: "/",
   },
 
