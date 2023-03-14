@@ -18,7 +18,7 @@ const { title } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
 
-    <!-- <script is:inline src="https://unpkg.com/scrollreveal@4"></script> -->
+    <script is:inline src="https://unpkg.com/scrollreveal@4"></script>
 
     <script>
       ScrollReveal().reveal(".heroimage", {
@@ -38,11 +38,11 @@ const { title } = Astro.props;
       ScrollReveal().reveal(".headline", {
         delay: 1300,
         distance: "30px",
-        easing: "ease-out",
+        easing: "ease-in",
         reset: true,
       });
-      ScrollReveal().reveal(".projects", { delay: 1700, easing: "ease-out" });
-      ScrollReveal().reveal(".footer", { delay: 2000 });
+      ScrollReveal().reveal(".projects", { delay: 1700, easing: "ease-in" });
+      ScrollReveal().reveal(".footer", { delay: 1900 });
     </script>
   </head>
   <body class="max-w-5xl bg-slate-100 lg:p-1 p-5 mx-auto">
