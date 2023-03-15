@@ -3,8 +3,8 @@ import { links } from "./data";
 ---
 
 <nav>
-  <ul class="flex justify-between py-2 navbar">
-    <li>
+  <div class="flex justify-between py-2 navbar">
+    <div class="logo">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="33"
@@ -17,9 +17,9 @@ import { links } from "./data";
           fill="black"></path>
         <circle cx="9" cy="9" r="9" fill="black"></circle>
       </svg>
-    </li>
+    </div>
 
-    <div class="links flex space-x-9">
+    <ul class="flex space-x-7">
       {
         links.map((link) => {
           return (
@@ -27,6 +27,7 @@ import { links } from "./data";
               <a
                 class="hover:text-black hover:font-bold hover:scale-110"
                 href={link.href}
+                aria-label={link.name}
                 target={link.target}
               >
                 {link.name}
@@ -35,6 +36,7 @@ import { links } from "./data";
           );
         })
       }
-    </div>
-  </ul>
+    </ul>
+    <!-- </div> -->
+  </div>
 </nav>

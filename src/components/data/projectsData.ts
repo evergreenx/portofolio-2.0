@@ -1,5 +1,6 @@
 export const projectsData = [
   {
+    id:1,
     name: " Wordium doc",
     desc: "A word processor web application that allows you to create, edit, and share documents.",
     image:
@@ -9,6 +10,7 @@ export const projectsData = [
     livelink: "https://wordiumdocsx.netlify.app/",
   },
   {
+    id:2,
     name: "Look",
     desc: "A text translation application that helps users translate text from one language to another using Microsoft azure cognitive services translator services. ",
     color: "bg-amber-400",
@@ -18,19 +20,20 @@ export const projectsData = [
     livelink: "https://look-tau.vercel.app/",
   },
 
-  {
-    name: "Project 3",
-    desc: "in testing ",
-    color: "from-red-500 to-purple-500 bg-gradient-to-r",
-    link: "/",
-  },
+  // {
+  //   id:"3",
+  //   name: "Project 3",
+  //   desc: "in testing ",
+  //   color: "from-red-500 to-purple-500 bg-gradient-to-r",
+  //   link: "/",
+  // },
 
-  {
-    name: "Project 4",
-    desc: "in testing ",
-    color: "from-amber-500 to-gray-500 bg-gradient-to-r",
-    link: "/",
-  },
+  // {id:4,
+  //   name: "Project 4",
+  //   desc: "in testing ",
+  //   color: "from-amber-500 to-gray-500 bg-gradient-to-r",
+  //   link: "/",
+  // },
 
   
 ];
