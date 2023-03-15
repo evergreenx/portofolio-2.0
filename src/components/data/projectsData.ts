@@ -15,7 +15,7 @@ export const projectsData = [
     link: "/",
     image:'https://res.cloudinary.com/evergreenx/image/upload/v1647727542/amazon2-preview_rmrj0k.png',
     ghlink: "https://github.com/evergreenx/Look",
-    livelink: "",
+    livelink: "https://look-tau.vercel.app/",
   },
 
   {
@@ -31,4 +31,6 @@ export const projectsData = [
     color: "from-amber-500 to-gray-500 bg-gradient-to-r",
     link: "/",
   },
+
+  
 ];

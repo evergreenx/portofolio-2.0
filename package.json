@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@astrojs/tailwind": "^3.1.0",
+    "@fontsource/roboto": "^4.5.8",
+    "@fontsource/roboto-mono": "^4.5.10",
     "astro": "^2.1.0",
     "scrollreveal": "^4.0.9",
     "tailwindcss": "^3.2.7"
