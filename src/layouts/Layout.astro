@@ -42,21 +42,8 @@ const { title } = Astro.props;
     <link rel="manifest" href="/site.webmanifest" />
     <!-- <meta name="generator" content={Astro.generator} /> -->
     <title>{title}</title>
-  </head>
-  <body class="max-w-5xl bg-slate-100 lg:p-1 p-5 mx-auto">
-    <NavBar />
 
-    <slot />
-
-    <Footer />
-    <script is:inline src="https://unpkg.com/scrollreveal@4"></script>
-
-    <script
-      src="https://kit.fontawesome.com/5daa8eb347.js"
-      crossorigin="anonymous"
-    ></script>
-
-    <script>
+<script>
       ScrollReveal().reveal(".heroimage", {
         delay: 800,
         duration: 500,
@@ -80,6 +67,22 @@ const { title } = Astro.props;
       ScrollReveal().reveal(".projects", { delay: 1700, easing: "ease-in" });
       ScrollReveal().reveal(".footer", { delay: 1900 });
     </script>
+
+  </head>
+  <body class="max-w-5xl bg-slate-100 lg:p-1 p-5 mx-auto">
+    <NavBar />
+
+    <slot />
+
+    <Footer />
+    <script is:inline src="https://unpkg.com/scrollreveal@4"></script>
+
+    <script
+      src="https://kit.fontawesome.com/5daa8eb347.js"
+      crossorigin="anonymous"
+    ></script>
+
+   
   </body>
 </html>
 <style is:global></style>
