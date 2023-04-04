@@ -19,6 +19,17 @@ export const projectsData = [
     ghlink: "https://github.com/evergreenx/Look",
     livelink: "https://look-tau.vercel.app/",
   },
+  
+   {
+    id:3,
+    name: "One Weather",
+    desc: "A weather app that allows users to check the current weather and five-day forecast for any location.. ",
+    color: "bg-amber-200",
+    link: "/",
+    image:'https://res.cloudinary.com/evergreenx/image/upload/v1680602048/p3_fxduhu.png',
+    ghlink: "https://github.com/evergreenx/oneweather",
+    livelink: "https://oneweather-ashy.vercel.app/",
+  }
 
   // {
   //   id:"3",
