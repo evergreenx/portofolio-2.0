@@ -9,6 +9,16 @@ export const projectsData = [
     ghlink: "https://github.com/evergreenx/Wordium-Docs",
     livelink: "https://wordiumdocsx.netlify.app/",
   },
+{
+id: 5,
+name: “bellafood”,
+desc:” A food delivery app with 7 screens”,
+image: “https://res.cloudinary.com/evergreenx/image/upload/v1679484580/Cargo_watch_presentation_fzo1pn.png”,
+ghlink:”https://github.com/evergreenx/bellafoodd”,
+
+
+
+},
   {
     id:2,
     name: "Look",
