@@ -15,8 +15,7 @@ name: “bellafood”,
 desc:” A food delivery app with 7 screens”,
 image: “https://res.cloudinary.com/evergreenx/image/upload/v1679484580/Cargo_watch_presentation_fzo1pn.png”,
 ghlink:”https://github.com/evergreenx/bellafoodd”,
-
-
+color: "bg-amber-400",
 
 },
   {
