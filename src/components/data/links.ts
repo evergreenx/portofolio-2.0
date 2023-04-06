@@ -12,7 +12,7 @@ export const links = [
     href: "#contact",
   },
   {
-    name: "blog",
+    name: "Blog",
     href: "https://blog.idoevergreen.xyz/",
     target : "_blank"
   },
