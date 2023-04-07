@@ -10,6 +10,18 @@ export const projectsData = [
     livelink: "https://wordiumdocsx.netlify.app/",
   },
   {
+    id: 20,
+    name: "Panda music",
+    desc: " Panda music is a music app with focus mainly on user experience...",
+    image:
+      "https://res.cloudinary.com/evergreenx/image/upload/v1679484580/Cargo_watch_presentation_fzo1pn.png",
+    ghlink:github.com/evergreenx/bellafoodd",
+    livelink: "https://github.com/evergreenx/Panda-Music"
+    color: "bg-brown-600",
+  },
+
+
+  {
     id: 5,
     name: "Bellafood",
     desc: " Why stay hungry when you can order form Bella Onojie's food store and get it delivered with ease",
@@ -19,7 +31,7 @@ export const projectsData = [
     livelink: "https://github.com/evergreenx/bellafoodd",
     color: "bg-blue-600",
   },
-
+You 
   {
     id: 6,
     name: "Dinter",
