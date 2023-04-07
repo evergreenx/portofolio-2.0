@@ -31,7 +31,7 @@ export const projectsData = [
     livelink: "https://github.com/evergreenx/bellafoodd",
     color: "bg-blue-600",
   },
-You 
+
   {
     id: 6,
     name: "Dinter",
