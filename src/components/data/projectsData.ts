@@ -12,15 +12,13 @@ export const projectsData = [
   {
     id: 20,
     name: "Panda music",
-    desc: " Panda music is a music app with focus mainly on user experience...",
+    desc: "Panda music is a music app with focus mainly on user experience...",
     image:
-      "https://res.cloudinary.com/evergreenx/image/upload/v1679484580/Cargo_watch_presentation_fzo1pn.png",
-    ghlink:github.com/evergreenx/bellafoodd",
+      "https://camo.githubusercontent.com/63e6c0d30b78a71efa9d12d658fb3eb227190816e8f27006708a829c6704d74b/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f65766572677265656e782f696d6167652f75706c6f61642f76313635323831303537362f50616e64615f4d757369635f315f68626f396d662e6a7067",
+    ghlink:  "https://github.com/evergreenx/Panda-Music",
     livelink: "https://github.com/evergreenx/Panda-Music"
-    color: "bg-brown-600",
-  },
-
-
+    color: "bg-brown-600"
+ },
   {
     id: 5,
     name: "Bellafood",
