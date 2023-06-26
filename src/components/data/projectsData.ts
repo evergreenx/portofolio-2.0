@@ -9,6 +9,17 @@ export const projectsData = [
   //   ghlink: "https://github.com/evergreenx/Wordium-Docs",
   //   livelink: "https://wordiumdocsx.netlify.app/",
   // },
+
+
+  {
+    id: 1,
+    name: "Cookedbook",
+    desc: "Cookbooked is a revolutionary recipe app designed to simplify your cooking experience",
+    image:"https://res.cloudinary.com/evergreenx/image/upload/v1687778615/Capture_y0kpif.png",
+    ghlink: "https://github.com/evergreenx/cookbooked",
+    livelink: "https://cookbookedx.vercel.app",
+    color: "bg-yellow-500",
+  },
   {
     id: 20,
     name: "Panda music",
