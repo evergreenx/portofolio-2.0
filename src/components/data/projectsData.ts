@@ -10,15 +10,36 @@ export const projectsData = [
   //   livelink: "https://wordiumdocsx.netlify.app/",
   // },
 
+  {
+    id: 0,
+    name: "Zap ",
+    desc: "Zap Africa is a leading cryptocurrency exchange platform that enables users to trade various cryptocurrencies securely and efficiently from anywhere in the world",
+    image:
+      "https://res.cloudinary.com/evergreenx/image/upload/v1691022267/web_iaxvas.png",
+    // ghlink: "https://github.com/evergreenx/cookbooked",
+    livelink: "https://zap.africa/",
+    color: "bg-blue-500",
+  },
 
   {
     id: 1,
     name: "Cookedbook",
-    desc: "Cookbooked is a revolutionary recipe app designed to simplify your cooking experience",
-    image:"https://res.cloudinary.com/evergreenx/image/upload/v1687778615/Capture_y0kpif.png",
+    desc: "Cookbooked is a revolutionary fullstack app designed to simplify your cooking experience",
+    image:
+      "https://res.cloudinary.com/evergreenx/image/upload/v1687778615/Capture_y0kpif.png",
     ghlink: "https://github.com/evergreenx/cookbooked",
     livelink: "https://cookbookedx.vercel.app",
     color: "bg-yellow-500",
+  },
+
+  {
+    id: 112,
+    name: "Syxlabs",
+    desc: "Online presence of Syxlabs",
+    image:
+      "https://res.cloudinary.com/evergreenx/image/upload/v1691023619/s_xwuzkr.png",
+    livelink: "https://syxlabs.com/",
+    color: "bg-green-500",
   },
   {
     id: 20,
