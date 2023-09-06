@@ -51,6 +51,18 @@ export const projectsData = [
     livelink: "https://github.com/evergreenx/Panda-Music",
     color: "bg-black",
   },
+
+    {
+    id: 15,
+    name: "Seeker reality",
+    desc: "Modern Living for everyone",
+    image:
+      "https://res.cloudinary.com/evergreenx/image/upload/v1694000776/ee_pwmd8c.png",
+    ghlink: "https://github.com/evergreenx/seekers-realty",
+    livelink: "https://seekersrealty.netlify.app/",
+    color: "bg-indigo-300",
+  },
+
   {
     id: 5,
     name: "Bellafood",
