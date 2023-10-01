@@ -35,6 +35,7 @@ const { title } = Astro.props;
     <meta name="language" content="English" />
     <meta name="revisit-after" content="1 days" />
     <meta name="author" content="ido evergreen" />
+    <meta name="google-adsense-account" content="ca-pub-1639567346860615" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -43,23 +44,22 @@ const { title } = Astro.props;
     <!-- <meta name="generator" content={Astro.generator} /> -->
     <title>{title}</title>
 
+    <!-- Google tag (gtag.js) -->
+    <script
+      type="text/partytown"
+      src="https://www.googletagmanager.com/gtag/js?id=G-F6SVKX5P6G"
+    ></script>
+    <script type="text/partytown">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    
-<!-- Google tag (gtag.js) -->
-<script 
-type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=G-F6SVKX5P6G"></script>
-<script
-type="text/partytown">
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-F6SVKX5P6G');
-</script>
-<script is:inline src="https://unpkg.com/scrollreveal@4"></script>
-<script
-
->
+      gtag("config", "G-F6SVKX5P6G");
+    </script>
+    <script is:inline src="https://unpkg.com/scrollreveal@4"></script>
+    <script>
       ScrollReveal().reveal(".heroimage", {
         delay: 800,
         duration: 500,
@@ -90,15 +90,15 @@ type="text/partytown">
     <slot />
 
     <Footer />
-  
-
 
     <script
       src="https://kit.fontawesome.com/5daa8eb347.js"
       crossorigin="anonymous"
     ></script>
-
-   
   </body>
 </html>
-<style is:global></style>
+<style is:global>
+  html.sr .load-hidden {
+    visibility: hidden;
+  }
+</style>
