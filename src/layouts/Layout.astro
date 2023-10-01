@@ -57,15 +57,6 @@ type="text/partytown">
   gtag('config', 'G-F6SVKX5P6G');
 </script>
 <script is:inline src="https://unpkg.com/scrollreveal@4"></script>
-
-  </head>
-  <body class="max-w-5xl bg-white lg:p-1 p-5 mx-auto">
-    <NavBar />
-
-    <slot />
-
-    <Footer />
-  
 <script
 
 >
@@ -87,11 +78,20 @@ type="text/partytown">
         delay: 1300,
         distance: "30px",
         easing: "ease-in",
-        reset: true,
+        reset: false,
       });
       ScrollReveal().reveal(".projects", { delay: 1700, easing: "ease-in" });
       ScrollReveal().reveal(".footer", { delay: 1900 });
     </script>
+  </head>
+  <body class="max-w-5xl bg-white lg:p-1 p-5 mx-auto">
+    <NavBar />
+
+    <slot />
+
+    <Footer />
+  
+
 
     <script
       src="https://kit.fontawesome.com/5daa8eb347.js"
