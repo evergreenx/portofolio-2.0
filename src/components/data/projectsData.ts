@@ -1,14 +1,5 @@
 export const projectsData = [
-  // {
-  //   id: 1,
-  //   name: " Wordium doc",
-  //   desc: "A word processor web application that allows you to create, edit, and share documents.",
-  //   image:
-  //     "https://res.cloudinary.com/evergreenx/image/upload/v1644680734/project_1_dgnqd3.png",
-  //   color: "bg-blue-500",
-  //   ghlink: "https://github.com/evergreenx/Wordium-Docs",
-  //   livelink: "https://wordiumdocsx.netlify.app/",
-  // },
+
 
   {
     id: 0,
@@ -20,7 +11,16 @@ export const projectsData = [
     livelink: "https://zap.africa/",
     color: "bg-blue-500",
   },
-
+  {
+    id: 1,
+    name: "Wordium doc",
+    desc: "A word processor web application that allows you to create, edit, and share documents.",
+    image:
+      "https://res.cloudinary.com/evergreenx/image/upload/v1644680734/project_1_dgnqd3.png",
+    color: "bg-blue-300",
+    ghlink: "https://github.com/evergreenx/Wordium-Docs",
+    livelink: "https://wordium-docs.vercel.app/",
+  },
   {
     id: 1,
     name: "Cookedbook",
