@@ -21,6 +21,17 @@ export const projectsData = [
     ghlink: "https://github.com/evergreenx/Wordium-Docs",
     livelink: "https://wordium-docs.vercel.app/",
   },
+
+  {
+    id: 1,
+    name: "JSON Formatter",
+    desc: "designed to format, validate, and enhance the readability of JSON data",
+    image:
+      "https://res.cloudinary.com/evergreenx/image/upload/v1704756164/ss_n2ns9l.jpg",
+    color: "bg-blue-300",
+    ghlink: "https://github.com/evergreenx/JSON-octo",
+    livelink: "https://jsonocto.idoevergreen.xyz/",
+  },
   {
     id: 1,
     name: "Cookedbook",
@@ -32,25 +43,25 @@ export const projectsData = [
     color: "bg-yellow-500",
   },
 
-  {
-    id: 112,
-    name: "Syxlabs",
-    desc: "Online presence of Syxlabs",
-    image:
-      "https://res.cloudinary.com/evergreenx/image/upload/v1691023619/s_xwuzkr.png",
-    livelink: "https://syxlabs.com/",
-    color: "bg-green-500",
-  },
-  {
-    id: 20,
-    name: "Panda music",
-    desc: "Panda music is a music app with focus mainly on user experience...",
-    image:
-      "https://camo.githubusercontent.com/63e6c0d30b78a71efa9d12d658fb3eb227190816e8f27006708a829c6704d74b/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f65766572677265656e782f696d6167652f75706c6f61642f76313635323831303537362f50616e64615f4d757369635f315f68626f396d662e6a7067",
-    ghlink: "https://github.com/evergreenx/Panda-Music",
-    livelink: "https://github.com/evergreenx/Panda-Music",
-    color: "bg-black",
-  },
+  // {
+  //   id: 112,
+  //   name: "Syxlabs",
+  //   desc: "Online presence of Syxlabs",
+  //   image:
+  //     "https://res.cloudinary.com/evergreenx/image/upload/v1691023619/s_xwuzkr.png",
+  //   livelink: "https://syxlabs.com/",
+  //   color: "bg-green-500",
+  // },
+  // {
+  //   id: 20,
+  //   name: "Panda music",
+  //   desc: "Panda music is a music app with focus mainly on user experience...",
+  //   image:
+  //     "https://camo.githubusercontent.com/63e6c0d30b78a71efa9d12d658fb3eb227190816e8f27006708a829c6704d74b/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f65766572677265656e782f696d6167652f75706c6f61642f76313635323831303537362f50616e64615f4d757369635f315f68626f396d662e6a7067",
+  //   ghlink: "https://github.com/evergreenx/Panda-Music",
+  //   livelink: "https://github.com/evergreenx/Panda-Music",
+  //   color: "bg-black",
+  // },
 
     {
     id: 15,
@@ -63,38 +74,38 @@ export const projectsData = [
     color: "bg-indigo-300",
   },
 
-  {
-    id: 5,
-    name: "Bellafood",
-    desc: " Why stay hungry when you can order form Bella Onojie's food store and get it delivered with ease",
-    image:
-      "https://res.cloudinary.com/evergreenx/image/upload/v1679484580/Cargo_watch_presentation_fzo1pn.png",
-    ghlink: "https://github.com/evergreenx/bellafoodd",
-    livelink: "https://github.com/evergreenx/bellafoodd",
-    color: "bg-purple-600",
-  },
+  // {
+  //   id: 5,
+  //   name: "Bellafood",
+  //   desc: " Why stay hungry when you can order form Bella Onojie's food store and get it delivered with ease",
+  //   image:
+  //     "https://res.cloudinary.com/evergreenx/image/upload/v1679484580/Cargo_watch_presentation_fzo1pn.png",
+  //   ghlink: "https://github.com/evergreenx/bellafoodd",
+  //   livelink: "https://github.com/evergreenx/bellafoodd",
+  //   color: "bg-purple-600",
+  // },
 
-  {
-    id: 6,
-    name: "Dinter",
-    desc: " Dinter is a dating app that allows users to find their perfect match and chat with them. It is built with React Native and Firebase. ",
-    image:
-      "https://res.cloudinary.com/evergreenx/image/upload/v1680726977/Group_17_sad4d2.png",
-    ghlink: "https://github.com/evergreenx/dinter-",
-    livelink: "https://github.com/evergreenx/dinter-",
-    color: "bg-pink-600",
-  },
+  // {
+  //   id: 6,
+  //   name: "Dinter",
+  //   desc: " Dinter is a dating app that allows users to find their perfect match and chat with them. It is built with React Native and Firebase. ",
+  //   image:
+  //     "https://res.cloudinary.com/evergreenx/image/upload/v1680726977/Group_17_sad4d2.png",
+  //   ghlink: "https://github.com/evergreenx/dinter-",
+  //   livelink: "https://github.com/evergreenx/dinter-",
+  //   color: "bg-pink-600",
+  // },
 
-  {
-    id: 5,
-    name: "NFT marketplace ",
-    desc: "A non fundable token (NFT) marketplace",
-    image:
-      "https://camo.githubusercontent.com/69ea1a67e68c4a0d00c5537dc12a4f28007bd765daee2bff18c1876497b55f7b/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f333834303939352f73637265656e73686f74732f31373036373734352f6d656469612f35663131343536376432616134393530303134373733373433626563343036312e706e673f636f6d70726573733d3126726573697a653d313230307839303026766572746963616c3d746f70",
-    ghlink: "https://github.com/evergreenx/nft-marketsquare-app",
-    livelink: "https://github.com/evergreenx/nft-marketsquare-app",
-    color: "bg-indigo-700",
-  },
+  // {
+  //   id: 5,
+  //   name: "NFT marketplace ",
+  //   desc: "A non fundable token (NFT) marketplace",
+  //   image:
+  //     "https://camo.githubusercontent.com/69ea1a67e68c4a0d00c5537dc12a4f28007bd765daee2bff18c1876497b55f7b/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f333834303939352f73637265656e73686f74732f31373036373734352f6d656469612f35663131343536376432616134393530303134373733373433626563343036312e706e673f636f6d70726573733d3126726573697a653d313230307839303026766572746963616c3d746f70",
+  //   ghlink: "https://github.com/evergreenx/nft-marketsquare-app",
+  //   livelink: "https://github.com/evergreenx/nft-marketsquare-app",
+  //   color: "bg-indigo-700",
+  // },
 
   {
     id: 2,
