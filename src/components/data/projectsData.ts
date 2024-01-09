@@ -119,6 +119,18 @@ export const projectsData = [
     livelink: "https://look-tau.vercel.app/",
   },
 
+    {
+    id: 221,
+    name: "Look",
+    desc: "A sample photo search app using Vuejs and unsplash Api",
+    color: "bg-amber-200",
+    link: "/",
+    image:
+      "https://res.cloudinary.com/evergreenx/image/upload/v1645089596/unsplash-ido-evergreen.netlify.app__yfht6v.png",
+    ghlink: "https://github.com/evergreenx/Unsplash-vue-test",
+    livelink: "https://unsplash-ido-evergreen.netlify.app/",
+  },
+
   {
     id: 3,
     name: "One Weather",
