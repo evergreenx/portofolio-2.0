@@ -21,6 +21,16 @@ export const projectsData = [
     color: "bg-purple-300",
     livelink: "http://snipxe.idoevergreen.xyz/",
   },
+
+    {
+    id: 11,
+    name: "colorX",
+    desc: "color palette generator that empowers designers and developer to create stunning color schemes effortlessly.",
+    image:
+      "https://res.cloudinary.com/evergreenx/image/upload/v1705555957/se_vz9crm.jpg",
+    color: "bg-red-300",
+    livelink: "https://colorx.vercel.app/",
+  },
   {
     id: 1,
     name: "Wordium doc",
