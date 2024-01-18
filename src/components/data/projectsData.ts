@@ -11,6 +11,16 @@ export const projectsData = [
     livelink: "https://zap.africa/",
     color: "bg-blue-500",
   },
+
+   {
+    id: 11,
+    name: "Snipxe",
+    desc: "SnipXe is an innovative cloud-based platform designed to seamlessly transform code snippets and text into visually captivating and shareable screenshots.",
+    image:
+      "https://res.cloudinary.com/evergreenx/image/upload/v1705555488/Log_out_kh7h2c.png",
+    color: "bg-purple-300",
+    livelink: "http://snipxe.idoevergreen.xyz/",
+  },
   {
     id: 1,
     name: "Wordium doc",
