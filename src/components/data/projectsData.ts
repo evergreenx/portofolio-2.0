@@ -42,16 +42,16 @@ export const projectsData = [
     livelink: "https://wordium-docs.vercel.app/",
   },
 
-  {
-    id: 1,
-    name: "JSON Formatter",
-    desc: "designed to format, validate, and enhance the readability of JSON data",
-    image:
-      "https://res.cloudinary.com/evergreenx/image/upload/v1704756164/ss_n2ns9l.jpg",
-    color: "bg-blue-300",
-    ghlink: "https://github.com/evergreenx/JSON-octo",
-    livelink: "https://jsonocto.idoevergreen.xyz/",
-  },
+  // {
+  //   id: 1,
+  //   name: "JSON Formatter",
+  //   desc: "designed to format, validate, and enhance the readability of JSON data",
+  //   image:
+  //     "https://res.cloudinary.com/evergreenx/image/upload/v1704756164/ss_n2ns9l.jpg",
+  //   color: "bg-blue-300",
+  //   ghlink: "https://github.com/evergreenx/JSON-octo",
+  //   livelink: "https://jsonocto.idoevergreen.xyz/",
+  // },
   {
     id: 1,
     name: "Cookedbook",
@@ -139,27 +139,27 @@ export const projectsData = [
     livelink: "https://look-tau.vercel.app/",
   },
 
-    {
-    id: 221,
-    name: "Look",
-    desc: "A sample photo search app using Vuejs and unsplash Api",
-    color: "bg-amber-200",
-    link: "/",
-    image:
-      "https://res.cloudinary.com/evergreenx/image/upload/v1645089596/unsplash-ido-evergreen.netlify.app__yfht6v.png",
-    ghlink: "https://github.com/evergreenx/Unsplash-vue-test",
-    livelink: "https://unsplash-ido-evergreen.netlify.app/",
-  },
+  //   {
+  //   id: 221,
+  //   name: "Look",
+  //   desc: "A sample photo search app using Vuejs and unsplash Api",
+  //   color: "bg-amber-200",
+  //   link: "/",
+  //   image:
+  //     "https://res.cloudinary.com/evergreenx/image/upload/v1645089596/unsplash-ido-evergreen.netlify.app__yfht6v.png",
+  //   ghlink: "https://github.com/evergreenx/Unsplash-vue-test",
+  //   livelink: "https://unsplash-ido-evergreen.netlify.app/",
+  // },
 
-  {
-    id: 3,
-    name: "One Weather",
-    desc: "A weather app that allows users to check the current weather and five-day forecast for any location.. ",
-    color: "bg-amber-700",
-    link: "/",
-    image:
-      "https://res.cloudinary.com/evergreenx/image/upload/v1680602048/p3_fxduhu.png",
-    ghlink: "https://github.com/evergreenx/oneweather",
-    livelink: "https://oneweather-ashy.vercel.app/",
-  },
+  // {
+  //   id: 3,
+  //   name: "One Weather",
+  //   desc: "A weather app that allows users to check the current weather and five-day forecast for any location.. ",
+  //   color: "bg-amber-700",
+  //   link: "/",
+  //   image:
+  //     "https://res.cloudinary.com/evergreenx/image/upload/v1680602048/p3_fxduhu.png",
+  //   ghlink: "https://github.com/evergreenx/oneweather",
+  //   livelink: "https://oneweather-ashy.vercel.app/",
+  // },
 ];
