@@ -13,18 +13,15 @@ import { projectsData } from "./data";
             <h2 class="text-lg font-semibold text-white ">{project.name}</h2>
 
             <div class="links flex text-white items-center space-x-3 text-lg">
-
-
-              {
-                project.ghlink &&   <a
-                href={project.ghlink}
-                target="_blank"
-                class="transition-all hover:-translate-y-2"
-              >
-                <i class="fa fa-github" />
-              </a>
-              }
-            
+              {project.ghlink && (
+                <a
+                  href={project.ghlink}
+                  target="_blank"
+                  class="transition-all hover:-translate-y-2"
+                >
+                  <i class="fa fa-github" />
+                </a>
+              )}
 
               <a
                 href={project.livelink}
@@ -38,8 +35,12 @@ import { projectsData } from "./data";
           <p class="font-normal text-base text-white ">{project.desc}</p>
         </div>
 
-        <div class="image__container ml-10 ">
-          <img class=" w-full lg:h-60" src={project.image} alt="project-cover" />
+        <div class="image__container mx-6 ">
+          <img
+            class=" w-full lg:h-60"
+            src={project.image}
+            alt="project-cover"
+          />
         </div>
       </div>
     ))
