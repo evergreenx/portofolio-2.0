@@ -22,25 +22,25 @@ export const projectsData = [
     livelink: "http://snipxe.idoevergreen.xyz/",
   },
 
-    {
-    id: 11,
-    name: "colorX",
-    desc: "color palette generator that empowers designers and developer to create stunning color schemes effortlessly.",
-    image:
-      "https://res.cloudinary.com/evergreenx/image/upload/v1705555957/se_vz9crm.jpg",
-    color: "bg-red-300",
-    livelink: "https://colorx.vercel.app/",
-  },
-  {
-    id: 1,
-    name: "Wordium doc",
-    desc: "A word processor web application that allows you to create, edit, and share documents.",
-    image:
-      "https://res.cloudinary.com/evergreenx/image/upload/v1644680734/project_1_dgnqd3.png",
-    color: "bg-blue-300",
-    ghlink: "https://github.com/evergreenx/Wordium-Docs",
-    livelink: "https://wordium-docs.vercel.app/",
-  },
+  //   {
+  //   id: 11,
+  //   name: "colorX",
+  //   desc: "color palette generator that empowers designers and developer to create stunning color schemes effortlessly.",
+  //   image:
+  //     "https://res.cloudinary.com/evergreenx/image/upload/v1705555957/se_vz9crm.jpg",
+  //   color: "bg-red-300",
+  //   livelink: "https://colorx.vercel.app/",
+  // },
+  // {
+  //   id: 1,
+  //   name: "Wordium doc",
+  //   desc: "A word processor web application that allows you to create, edit, and share documents.",
+  //   image:
+  //     "https://res.cloudinary.com/evergreenx/image/upload/v1644680734/project_1_dgnqd3.png",
+  //   color: "bg-blue-300",
+  //   ghlink: "https://github.com/evergreenx/Wordium-Docs",
+  //   livelink: "https://wordium-docs.vercel.app/",
+  // },
 
   // {
   //   id: 1,
@@ -52,16 +52,16 @@ export const projectsData = [
   //   ghlink: "https://github.com/evergreenx/JSON-octo",
   //   livelink: "https://jsonocto.idoevergreen.xyz/",
   // },
-  {
-    id: 1,
-    name: "Cookedbook",
-    desc: "Cookbooked is a revolutionary fullstack app designed to simplify your cooking experience",
-    image:
-      "https://res.cloudinary.com/evergreenx/image/upload/v1687778615/Capture_y0kpif.png",
-    ghlink: "https://github.com/evergreenx/cookbooked",
-    livelink: "https://cookbookedx.vercel.app",
-    color: "bg-yellow-500",
-  },
+  // {
+  //   id: 1,
+  //   name: "Cookedbook",
+  //   desc: "Cookbooked is a revolutionary fullstack app designed to simplify your cooking experience",
+  //   image:
+  //     "https://res.cloudinary.com/evergreenx/image/upload/v1687778615/Capture_y0kpif.png",
+  //   ghlink: "https://github.com/evergreenx/cookbooked",
+  //   livelink: "https://cookbookedx.vercel.app",
+  //   color: "bg-yellow-500",
+  // },
 
   // {
   //   id: 112,
@@ -127,17 +127,17 @@ export const projectsData = [
   //   color: "bg-indigo-700",
   // },
 
-  {
-    id: 2,
-    name: "Look",
-    desc: "A text translation application that helps users translate text from one language to another using Microsoft azure cognitive services translator services. ",
-    color: "bg-amber-400",
-    link: "/",
-    image:
-      "https://res.cloudinary.com/evergreenx/image/upload/v1647727542/amazon2-preview_rmrj0k.png",
-    ghlink: "https://github.com/evergreenx/Look",
-    livelink: "https://look-tau.vercel.app/",
-  },
+  // {
+  //   id: 2,
+  //   name: "Look",
+  //   desc: "A text translation application that helps users translate text from one language to another using Microsoft azure cognitive services translator services. ",
+  //   color: "bg-amber-400",
+  //   link: "/",
+  //   image:
+  //     "https://res.cloudinary.com/evergreenx/image/upload/v1647727542/amazon2-preview_rmrj0k.png",
+  //   ghlink: "https://github.com/evergreenx/Look",
+  //   livelink: "https://look-tau.vercel.app/",
+  // },
 
   //   {
   //   id: 221,
