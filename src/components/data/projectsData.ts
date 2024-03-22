@@ -19,7 +19,7 @@ export const projectsData = [
     image:
       "https://res.cloudinary.com/evergreenx/image/upload/v1705555488/Log_out_kh7h2c.png",
     color: "bg-purple-300",
-    livelink: "http://snipxe.idoevergreen.xyz/",
+    livelink: "https://snipxxe.vercel.app/create",
   },
 
   //   {
