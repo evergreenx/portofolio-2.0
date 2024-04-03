@@ -22,6 +22,17 @@ export const projectsData = [
     livelink: "http://snipxe.idoevergreen.xyz/",
   },
 
+  {
+    id: 13,
+    name: "Coollors",
+    desc: "Application that empowers users to effortlessly create, customize, save, and export stunning color palettes. this application offers an intuitive interface for designers, developers, and creatives to explore endless color combinations.",
+    image:
+      "https://res.cloudinary.com/evergreenx/image/upload/v1712104502/export_ehx7lt.jpg",
+    color: "bg-yellow-300",
+    livelink: "https://coollors.vercel.app/",
+        ghlink: "https://github.com/evergreenx/coollors/tree/main",
+  },
+
   //   {
   //   id: 11,
   //   name: "colorX",
