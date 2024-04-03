@@ -27,7 +27,7 @@ export const projectsData = [
     name: "Coollors",
     desc: "Application that empowers users to effortlessly create, customize, save, and export stunning color palettes. this application offers an intuitive interface for designers, developers, and creatives to explore endless color combinations.",
     image:
-      "https://res.cloudinary.com/evergreenx/image/upload/v1712104502/export_ehx7lt.jpg",
+      "https://res.cloudinary.com/evergreenx/image/upload/v1712109309/Screenshot_2024-04-03_025435_ztcqzd.jpg",
     color: "bg-black",
     livelink: "https://coollors.idoevergreen.me/",
         ghlink: "https://github.com/evergreenx/coollors/tree/main",
