@@ -25,7 +25,7 @@ export const projectsData = [
   {
     id: 13,
     name: "Coollors",
-    desc: "Application that empowers users to effortlessly create, customize, save, and export stunning color palettes. this application offers an intuitive interface for designers, developers, and creatives to explore endless color combinations.",
+    desc: "Application that empowers users to effortlessly create, customize, save, and export stunning color palettes n offers an intuitive interface for creatives to explore endless color combinations.",
     image:
       "https://res.cloudinary.com/evergreenx/image/upload/v1712109309/Screenshot_2024-04-03_025435_ztcqzd.jpg",
     color: "bg-black",
