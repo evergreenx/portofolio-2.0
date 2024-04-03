@@ -13,7 +13,7 @@ export const links = [
   },
   {
     name: "Blog",
-    href: "https://blog.idoevergreen.xyz/",
+    href: "https://hashnode.com/@evergreen",
     target : "_blank"
   },
 ];
