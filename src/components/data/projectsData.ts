@@ -29,7 +29,7 @@ export const projectsData = [
     image:
       "https://res.cloudinary.com/evergreenx/image/upload/v1712104502/export_ehx7lt.jpg",
     color: "bg-black",
-    livelink: "https://coollors.vercel.app/",
+    livelink: "https://coollors.idoevergreen.me/",
         ghlink: "https://github.com/evergreenx/coollors/tree/main",
   },
 
