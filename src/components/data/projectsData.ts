@@ -19,7 +19,8 @@ export const projectsData = [
     image:
       "https://res.cloudinary.com/evergreenx/image/upload/v1705555488/Log_out_kh7h2c.png",
     color: "bg-purple-300",
-    livelink: "https://snipxxe.vercel.app/create",
+        ghlink: "https://github.com/evergreenx/snipXe",
+    livelink: "https://snipxe.idoevergreen.me,
   },
 
   {
