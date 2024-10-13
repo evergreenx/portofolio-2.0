@@ -2,18 +2,19 @@
 import About from "./About.astro";
 ---
 
-<section class="about-me mb-5 ">
+<section class="about-me mb-5">
   <div class="lg:grid-cols-3 lg:space-y-0 space-y-7 grid-cols-1 grid lg:gap-5">
-    <div class="bg-[#1D1D1D] rounded-2xl load-hidden headline col-span-2 lg:h-[500px]  p-[40px]">
+    <div
+      class="bg-[#1D1D1D] rounded-2xl load-hidden headline col-span-2 lg:h-[500px] p-[40px]"
+    >
       <div class="flex justify-between flex-col h-full">
         <About />
       </div>
     </div>
     <div
-      class="bg-black load-hidden heroimage bg-no-repeat bg-center bg-cover rounded-2xl h-[500px] 
-      
-      "
+      class="bg-black load-hidden heroimage bg-no-repeat bg-center bg-cover rounded-2xl h-[500px]"
     >
+      <img src="../../public/IMG_9717-removebg-preview.png" />
     </div>
   </div>
 </section>
