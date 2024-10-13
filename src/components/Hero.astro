@@ -1,5 +1,7 @@
 ---
 import About from "./About.astro";
+
+import ImagePath from "../../src/me.png";
 ---
 
 <section class="about-me mb-5">
@@ -14,7 +16,7 @@ import About from "./About.astro";
     <div
       class="bg-black load-hidden heroimage bg-no-repeat bg-center bg-cover rounded-2xl h-[500px]"
     >
-      <img src="../../src/me.png" alt="my photo" />
+      <img src={ImagePath} alt="testting" />
     </div>
   </div>
 </section>
