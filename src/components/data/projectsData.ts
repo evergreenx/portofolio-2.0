@@ -43,16 +43,16 @@ export const projectsData = [
   //   color: "bg-red-300",
   //   livelink: "https://colorx.vercel.app/",
   // },
-  // {
-  //   id: 1,
-  //   name: "Wordium doc",
-  //   desc: "A word processor web application that allows you to create, edit, and share documents.",
-  //   image:
-  //     "https://res.cloudinary.com/evergreenx/image/upload/v1644680734/project_1_dgnqd3.png",
-  //   color: "bg-blue-300",
-  //   ghlink: "https://github.com/evergreenx/Wordium-Docs",
-  //   livelink: "https://wordium-docs.vercel.app/",
-  // },
+  {
+    id: 1,
+    name: "Wordium doc",
+    desc: "A word processor web application that allows you to create, edit, and share documents.",
+    image:
+      "https://res.cloudinary.com/evergreenx/image/upload/v1644680734/project_1_dgnqd3.png",
+    color: "bg-blue-300",
+    ghlink: "https://github.com/evergreenx/Wordium-Docs",
+    livelink: "https://wordium-docs.vercel.app/",
+  },
 
   // {
   //   id: 1,
@@ -64,47 +64,47 @@ export const projectsData = [
   //   ghlink: "https://github.com/evergreenx/JSON-octo",
   //   livelink: "https://jsonocto.idoevergreen.xyz/",
   // },
-  // {
-  //   id: 1,
-  //   name: "Cookedbook",
-  //   desc: "Cookbooked is a revolutionary fullstack app designed to simplify your cooking experience",
-  //   image:
-  //     "https://res.cloudinary.com/evergreenx/image/upload/v1687778615/Capture_y0kpif.png",
-  //   ghlink: "https://github.com/evergreenx/cookbooked",
-  //   livelink: "https://cookbookedx.vercel.app",
-  //   color: "bg-yellow-500",
-  // },
+  {
+    id: 1,
+    name: "Cookedbook",
+    desc: "Cookbooked is a revolutionary fullstack app designed to simplify your cooking experience",
+    image:
+      "https://res.cloudinary.com/evergreenx/image/upload/v1687778615/Capture_y0kpif.png",
+    ghlink: "https://github.com/evergreenx/cookbooked",
+    livelink: "https://cookbookedx.vercel.app",
+    color: "bg-yellow-500",
+  },
 
-  // {
-  //   id: 112,
-  //   name: "Syxlabs",
-  //   desc: "Online presence of Syxlabs",
-  //   image:
-  //     "https://res.cloudinary.com/evergreenx/image/upload/v1691023619/s_xwuzkr.png",
-  //   livelink: "https://syxlabs.com/",
-  //   color: "bg-green-500",
-  // },
-  // {
-  //   id: 20,
-  //   name: "Panda music",
-  //   desc: "Panda music is a music app with focus mainly on user experience...",
-  //   image:
-  //     "https://camo.githubusercontent.com/63e6c0d30b78a71efa9d12d658fb3eb227190816e8f27006708a829c6704d74b/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f65766572677265656e782f696d6167652f75706c6f61642f76313635323831303537362f50616e64615f4d757369635f315f68626f396d662e6a7067",
-  //   ghlink: "https://github.com/evergreenx/Panda-Music",
-  //   livelink: "https://github.com/evergreenx/Panda-Music",
-  //   color: "bg-black",
-  // },
+  {
+    id: 112,
+    name: "Syxlabs",
+    desc: "Online presence of Syxlabs",
+    image:
+      "https://res.cloudinary.com/evergreenx/image/upload/v1691023619/s_xwuzkr.png",
+    livelink: "https://syxlabs.com/",
+    color: "bg-green-500",
+  },
+  {
+    id: 20,
+    name: "Panda music",
+    desc: "Panda music is a music app with focus mainly on user experience...",
+    image:
+      "https://camo.githubusercontent.com/63e6c0d30b78a71efa9d12d658fb3eb227190816e8f27006708a829c6704d74b/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f65766572677265656e782f696d6167652f75706c6f61642f76313635323831303537362f50616e64615f4d757369635f315f68626f396d662e6a7067",
+    ghlink: "https://github.com/evergreenx/Panda-Music",
+    livelink: "https://github.com/evergreenx/Panda-Music",
+    color: "bg-black",
+  },
 
-  //   {
-  //   id: 15,
-  //   name: "Seeker reality",
-  //   desc: "Modern Living for everyone",
-  //   image:
-  //     "https://res.cloudinary.com/evergreenx/image/upload/v1694000776/ee_pwmd8c.png",
-  //   ghlink: "https://github.com/evergreenx/seekers-realty",
-  //   livelink: "https://seekersrealty.netlify.app/",
-  //   color: "bg-indigo-300",
-  // },
+    {
+    id: 15,
+    name: "Seeker reality",
+    desc: "Modern Living for everyone",
+    image:
+      "https://res.cloudinary.com/evergreenx/image/upload/v1694000776/ee_pwmd8c.png",
+    ghlink: "https://github.com/evergreenx/seekers-realty",
+    livelink: "https://seekersrealty.netlify.app/",
+    color: "bg-indigo-300",
+  },
 
   // {
   //   id: 5,
@@ -117,27 +117,27 @@ export const projectsData = [
   //   color: "bg-purple-600",
   // },
 
-  // {
-  //   id: 6,
-  //   name: "Dinter",
-  //   desc: " Dinter is a dating app that allows users to find their perfect match and chat with them. It is built with React Native and Firebase. ",
-  //   image:
-  //     "https://res.cloudinary.com/evergreenx/image/upload/v1680726977/Group_17_sad4d2.png",
-  //   ghlink: "https://github.com/evergreenx/dinter-",
-  //   livelink: "https://github.com/evergreenx/dinter-",
-  //   color: "bg-pink-600",
-  // },
+  {
+    id: 6,
+    name: "Dinter",
+    desc: " Dinter is a dating app that allows users to find their perfect match and chat with them. It is built with React Native and Firebase. ",
+    image:
+      "https://res.cloudinary.com/evergreenx/image/upload/v1680726977/Group_17_sad4d2.png",
+    ghlink: "https://github.com/evergreenx/dinter-",
+    livelink: "https://github.com/evergreenx/dinter-",
+    color: "bg-pink-600",
+  },
 
-  // {
-  //   id: 5,
-  //   name: "NFT marketplace ",
-  //   desc: "A non fundable token (NFT) marketplace",
-  //   image:
-  //     "https://camo.githubusercontent.com/69ea1a67e68c4a0d00c5537dc12a4f28007bd765daee2bff18c1876497b55f7b/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f333834303939352f73637265656e73686f74732f31373036373734352f6d656469612f35663131343536376432616134393530303134373733373433626563343036312e706e673f636f6d70726573733d3126726573697a653d313230307839303026766572746963616c3d746f70",
-  //   ghlink: "https://github.com/evergreenx/nft-marketsquare-app",
-  //   livelink: "https://github.com/evergreenx/nft-marketsquare-app",
-  //   color: "bg-indigo-700",
-  // },
+  {
+    id: 5,
+    name: "NFT marketplace ",
+    desc: "A non fundable token (NFT) marketplace",
+    image:
+      "https://camo.githubusercontent.com/69ea1a67e68c4a0d00c5537dc12a4f28007bd765daee2bff18c1876497b55f7b/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f333834303939352f73637265656e73686f74732f31373036373734352f6d656469612f35663131343536376432616134393530303134373733373433626563343036312e706e673f636f6d70726573733d3126726573697a653d313230307839303026766572746963616c3d746f70",
+    ghlink: "https://github.com/evergreenx/nft-marketsquare-app",
+    livelink: "https://github.com/evergreenx/nft-marketsquare-app",
+    color: "bg-indigo-700",
+  },
 
   // {
   //   id: 2,
